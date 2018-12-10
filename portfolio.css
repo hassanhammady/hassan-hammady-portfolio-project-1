@@ -1,0 +1,140 @@
+.container{
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden; overflow-y: auto;
+} 
+
+/* This is header style */ 
+
+.header{
+    margin-top:30px;
+    flex-wrap: wrap;
+}
+.word {
+    float: right;
+    padding-right: 40px;
+}
+.name {
+    font-family: serif;
+    font-size:40px;
+}
+.title {
+    font-size: 25px;
+    float: inherit;
+    margin-top: 10px;
+}
+.logo{
+    width:55%;
+    padding-left: 0px;
+}
+
+/* This is middle page style */
+
+.middle{
+    text-align: center;
+    width: 100%;
+}
+.about ,.contact {
+    float: left;
+    max-width: 100%;
+    margin-top: 20px;
+    padding:10px 20px 20px 20px; 
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+.hr{ 
+    height:6px;border-width:10px;color:gray;background-color:gray; 
+    margin-top: 60px;
+}
+
+.middleimg{
+    margin-top: 100px;
+    margin-bottom: auto;
+
+}
+.middleimg [src="images/hassan.JPG"] {
+    border-radius: 50%;
+}
+
+.text{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    color: #7d97ad;
+}
+
+/* This bottom page style */
+
+.bottom {
+    display: flex;
+    width: 100%;
+}
+img {
+    width: 100%;
+}
+.img1 {
+    width: 100%;
+    padding-right: 30px;
+}
+.img2 {
+    width: 100%;
+    padding-right: 30px;
+}
+.img3 {
+    width: 100%;
+    padding-right: 30px;
+}
+.img1 [src="images/it.jpg"], .img2 [src="images/aviation.jpg"], .img3 [src="images/programing.jpg"]{
+    border-radius: 20px;
+}
+.feature {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #2d3c49;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#about-me , #contact-information{   
+    width: 50em;
+    max-width: 100%;
+    line-height: 1.5em;
+}
+p {
+    font-size: 20px;
+}
+h1{
+        color: #7d97ad;
+    font-family: sans-serif;
+}
+span {
+    color: darkblue;
+    padding-right: 20px;
+    display: block;
+}
+
+/* This is footer style */
+
+.footer
+{
+   background: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 30px;   
+}
+#links [ href ="https://github.com/hassanhammady"] {
+    padding-right: 10px;
+    font-size: 25px;
+}
+#links [ href="https://www.linkedin.com/in/hassan-salah-22202990/"] {
+    padding-right: 10px;
+    font-size: 25px;
+}
+
