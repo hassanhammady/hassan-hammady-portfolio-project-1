@@ -1,0 +1,39 @@
+.header {
+    display:flex;
+    flex-wrap: wrap;
+}
+.logo  {
+    order: 1;
+    width:60%;
+    text-align: center;
+    margin-bottom: 10px
+}
+.word {
+    order:2;
+}
+.name {
+    font-size: 50px;
+    text-align: center;
+}
+.title {
+    text-align: center;
+    margin-top: 10px;
+}
+.middleimg {
+    margin-right: 0px;
+}
+.img1, .img2, .img3 {
+    margin-bottom: 15px;
+}
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    }
+#links [ href ="https://github.com/hassanhammady"] {
+    padding-right: 10px;
+    font-size: 25px;
+}
+#links [ href="https://www.linkedin.com/in/hassan-salah-22202990/"]{
+    padding-right: 10px;
+    font-size: 25px;
+}
